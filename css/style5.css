@@ -1,0 +1,54 @@
+/* General styling for the form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the form on the page */
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Styling for file input */
+input[type="file"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc1b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for select dropdowns */
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc04;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%; /* Make the button full-width */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049;
+}
